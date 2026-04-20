@@ -4,3 +4,4 @@ docling
 python-dotenv
 pillow
 fpdf2
+uvicorn
