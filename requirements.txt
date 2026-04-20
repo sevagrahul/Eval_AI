@@ -1,0 +1,6 @@
+streamlit
+openai
+docling
+python-dotenv
+pillow
+fpdf2
