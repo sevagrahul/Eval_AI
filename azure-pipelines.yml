@@ -1,0 +1,19 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+
+- script: |
+    echo "Current Directory:"
+    pwd
+
+    echo "Files in Repository:"
+    ls -la
+  displayName: 'Inspect Repository'
+
+- script: |
+    python --version
+  displayName: 'Check Python Version'
