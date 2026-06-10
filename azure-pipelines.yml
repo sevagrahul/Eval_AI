@@ -17,3 +17,6 @@ steps:
 - script: |
     python --version
   displayName: 'Check Python Version'
+- script: |
+    pip install - requirements.txt
+  displayName: 'installing dependencies'
