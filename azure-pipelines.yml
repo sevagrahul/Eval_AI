@@ -9,7 +9,6 @@ steps:
 - script: |
     echo "Current Directory:"
     pwd
-  displayName: 'Files in current directory'
 
     echo "Files in Repository:"
     ls -la
