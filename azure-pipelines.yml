@@ -20,6 +20,6 @@ steps:
 - script: |
     pip install -r requirements.txt
   displayName: 'installing dependencies'
-- script |
+- script: |
     python app.py
   displayName: 'running application'
